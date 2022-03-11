@@ -1,0 +1,54 @@
+//primary color #38B6FF
+//secondary color #FFDE59
+
+.navbar {
+    display: flex;
+    background-color: #38B6FF;
+    justify-content: space-between;
+    font-weight: 900;
+    align-items: center;
+}
+
+.navbar__logo {
+    height: 60px;
+    margin-left: 50px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.navbar__option {
+    ul {
+    display: flex;
+    width: 500px;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 1rem;
+    }
+
+    li:hover {
+        background-color: white;
+        border-radius: 20px;
+        
+        a {
+            color: #38B6FF;
+        }
+    }
+}
+
+
+
+
+
+
